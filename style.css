@@ -4,6 +4,36 @@
  h2, h3, h4, h5, h6, ul, li {
   margin-bottom: 0; }
 
+  body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-nightsky {
+  color: white;
+  /* background: url("header.jpg") no-repeat; */
+  background-image: linear-gradient(rgba(223, 223, 223, 0.5), rgba(236, 240, 243, 0.5)), url("nightsky.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 10px;
+}
+
+.header-nightsky .navbar-nav>li>a {
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.header-nightsky .navbar {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom:none;
+  background-color: transparent;
+  min-width: 300px;
+  border: none;
+}
+
 footer {
   margin-top: 10px; }
 
