@@ -56,6 +56,11 @@ footer {
     font-size: 24px;
     color: #919090;
   }
+
+  #gh {
+    font-size: 48px;
+    color: #f7efef;
+  }
   
   .topnav a:hover {
     background-color: #ddd;
