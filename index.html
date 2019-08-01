@@ -4,13 +4,16 @@
   <base href="">
   <meta charset="UTF-8">
   <title>Geospatial Torrent Client </title>
-  <meta name="description" content="βTorrent is the first fully-featured Browser WebTorrent Client">
+  <!-- <meta name="description" content="βTorrent is the first fully-featured Browser WebTorrent Client">
   <meta name="keywords" content="βTorrent, btorrent, client, webtorrent, browser, torrent, stream, bittorrent, torrenting, sharing, filesharing">
-  <meta name="author" content="Diego Rodríguez Baquero - DiegoRBaquero">
+  <meta name="author" content="Diego Rodríguez Baquero - DiegoRBaquero"> -->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="trafficjunky-site-verification" content="rs9noatvt" />
   <script
       src="https://cdn.jsdelivr.net/g/webtorrent@0,momentjs@2,angularjs@1.5(angular.min.js+angular-route.min.js+angular-sanitize.min.js),angular.ui-grid@3.1,angular.ng-notify@0.8,angular.file-upload@12"></script>
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize@3.0,skeleton@2.0,angular.ng-notify@0.8(ng-notify.min.css)">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/angular.ui-grid/3.1/ui-grid.min.css">
@@ -25,14 +28,14 @@
 
 
   
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 <body ng-controller="BTorrentCtrl" ng-cloak=""> 
   
   <div class="header-nightsky">
     <nav class="navbar navbar-default">
         <div class="container">
-            <a class="navbar-brand" href="#">geospatialDataHub</a>
+            <a class="navbar-brand" href="#">point cloud</a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -73,8 +76,8 @@
     </nav>
     <div class="hero">
         <h1>geospatialDataHub</h1>
-        <div class="btn btn-primary">Learn more about us</div>
-        <div class="btn btn-primary">Contact us</div>
+        <!-- <div class="btn btn-primary">Learn more about us</div>
+        <div class="btn btn-primary">Contact us</div> -->
     </div>
 </div>
 
@@ -99,7 +102,7 @@
     </div>
   </div> -->
             <div class="col-md-4" style="background-color: rgb(240, 240, 240);padding-bottom: 100%">
-                <h2 id="viewer-title" class="secondary-title">Select An Image</h2>
+                <h4 id="viewer-title" class="secondary-title">Select An Image</h4>
                 <div id="map"></div>
                 <iframe id="viewFrame" src='about:blank' style="display:none"></iframe>
                 <div class="btn-group btn-group-lg" role="group" aria-label="...">
