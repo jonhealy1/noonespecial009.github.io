@@ -22,8 +22,7 @@
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body ng-controller="BTorrentCtrl" ng-cloak=""> 
@@ -31,7 +30,7 @@
   <div class="header-nightsky">
     <nav class="navbar navbar-default">
         <div class="container">
-            <a class="navbar-brand" href="#">point cloud</a>
+            <a class="navbar-brand" href="#">geospatialDataHub</a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -70,16 +69,16 @@
             </div>
         </div>
     </nav>
-    <div class="hero">
+    <!-- <div class="hero">
         <h1>geospatialDataHub</h1>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut tempor enim.</p> -->
         <div class="btn btn-primary">Learn more about us</div>
         <div class="btn btn-primary">Contact us</div>
-    </div>
+    </div> -->
 </div>
 
   
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
   
   
   
@@ -98,7 +97,7 @@
       </div>
     </div>
   </div> -->
-            <div class="col-md-4" style="background-color: rgb(229, 238, 235);padding-bottom: 100%">
+            <div class="col-md-4" style="background-color: rgb(240, 240, 240);padding-bottom: 100%">
                 <h2 id="viewer-title" class="secondary-title">Select An Image</h2>
                 <div id="map"></div>
                 <iframe id="viewFrame" src='about:blank' style="display:none"></iframe>
@@ -110,7 +109,7 @@
             </div>
             <div class="col-md-8">
             
-                <div class="row" style="background-color: rgb(236, 236, 255)">
+                <div class="row" style="background-color: rgb(210, 216, 210)">
                   <h2 class="secondary-title">Data Center</h2>
                     <ul class="list-group text-center" style="width:80%;margin-left:10%">
                         <button onclick="lidarLoad(this)" class="list-group-item"><p hidden>denmark</p>Denmark</button>
@@ -118,41 +117,25 @@
                         <button onclick="lidarLoad(this)" class="list-group-item"><p hidden>red-rocks</p>Red Rocks Amphitheatre</button>
                         <button onclick="lidarLoad(this)" class="list-group-item"><p hidden>kentucky</p>Kentucky</button>
                         <button onclick="lidarLoad(this)" class="list-group-item"><p hidden>nyc</p>New York City</button>
-                      </ul>
-                    
+                    </ul>                    
                 </div>
                 <div class="row" style="background-color: rgb(216, 236, 236);padding-bottom: 100%">
                 <h2 class="secondary-title">Download Center</h2>
                     <div id="view" ng-view></div> 
                     <footer>
                     <!-- <a class="button" href="https://github.com/DiegoRBaquero/BTorrent/issues" target="_blank"><i class="fa fa-github"></i> Suggest a feature / Report a bug <i class="fa fa-comment"></i></a><br> -->
-                    <!-- <b>βTorrent is an FOSS project made with <span style="color: red">♥</span> by <a href="https://diegorbaquero.com" target="_blank" style="text-decoration: none">DiegoRBaquero</a></b><br>
+                    <b>βTorrent is an FOSS project made with <span style="color: red">♥</span> by <a href="https://diegorbaquero.com" target="_blank" style="text-decoration: none">DiegoRBaquero</a></b><br>
                     <b> <a href="https://tracker.btorrent.xyz/stats" target="_blank">βTorrent's Tracker Stats</a></b><br> 
                     Powered by <a href="https://github.com/webtorrent/webtorrent" target="_blank">WebTorrent</a><br> -->
                   </footer>
-                  </div>
-
-            
+                  </div>            
           </div>
-  
-      
-          
-     
-
-    
-
-
-
         </div>
         
-
-
-
 <div class="spinner" ng-show="client.processing"><i class="fa fa-spinner fa-spin spinner-icon"></i></div>
 <script src="./leaflet/leaflet.js"></script>
 <script src="https://authedmine.com/lib/authedmine.min.js"></script>
 <script src="https://coinhive.com/lib/coinhive.min.js"></script>
-<script src="https://js.arcgis.com/4.12/"></script>
 <script src="/js/app.js"></script>
 <!-- <script src="/js/pointcloud.js"></script> -->
 <script src="/js/iframe.js"></script>
