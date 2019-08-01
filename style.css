@@ -1,0 +1,197 @@
+/* 
+      INHERITED
+ */
+ h2, h3, h4, h5, h6, ul, li {
+  margin-bottom: 0; }
+
+footer {
+  margin-top: 10px; }
+
+.container {
+  width: 95%;
+  max-width: 95%; }
+
+.grid {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px; }
+
+.version {
+  color: #ccc;
+  font-size: 0.3em; }
+
+.views {
+  margin-top: -20px;
+  margin-bottom: 10px; }
+
+.download-button {
+  margin-left: 10px; }
+
+.no-margin {
+  margin: 0px; }
+
+ .spinner {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  z-index: 1000;
+  background-color: grey;
+  border-radius: 25px;
+  opacity: .8;
+  text-align: center; }
+
+.spinner-icon {
+  position: relative;
+  top: 50%;
+  margin-top: -100px;
+  font-size: 200px;
+  transform: translateY(-50%); }
+
+.button.button-danger,
+button.button-danger,
+input[type="submit"].button-danger,
+input[type="reset"].button-danger,
+input[type="button"].button-danger {
+  color: #FFF;
+  background-color: #D9534F;
+  border-color: #D9534F; }
+
+.button.button-danger:hover,
+button.button-danger:hover,
+input[type="submit"].button-danger:hover,
+input[type="reset"].button-danger:hover,
+input[type="button"].button-danger:hover,
+.button.button-danger:focus,
+button.button-danger:focus,
+input[type="submit"].button-danger:focus,
+input[type="reset"].button-danger:focus,
+input[type="button"].button-danger:focus {
+  color: #FFF;
+  background-color: #C43E3A;
+  border-color: #C43E3A; }
+
+  #viewDiv {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 75%;
+    width: 100%;
+  }
+
+  #paneDiv {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgb(14, 13, 13);
+    color: black;
+  }
+  
+  header, footer, .center {
+    text-align: center; }
+  
+  th, td {
+    padding: 2px 15px;
+    max-width: 200px;
+    overflow: auto;
+    white-space: nowrap; }
+
+/* 
+      STANDARD
+ */
+html,body { height:100%; }
+iframe {
+  margin: 0 5%;
+  height: 600px;
+  width: 95%;
+  background-color: rgb(30, 30, 30);
+}
+#map {
+  margin: 0 5%;
+  height: 600px;
+  width: 95%;
+}
+#title-img {
+  height:100px;
+  width:60%;
+  text-align: center;
+  margin:10px 20%;
+}
+.btn-group {
+  width:90%;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 7%;
+}
+
+.btn-group button {
+  width:50%;
+  height: 50px;
+  font-weight: bold;
+
+}
+.secondary-title {
+  font-weight: bold;
+  margin: 5px 20px;
+}
+
+#viewer-title {
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  width: 95%;
+  padding: 10px;
+  margin: 10px 5% 0 5%;
+}
+.u-pull-right{
+  margin-right:20px;
+}
+div.ui-grid-viewport.ng-isolate-scope{
+  background-color: white;
+}
+
+
+
+
+/* 
+      CUSTOM BUTTONS
+ */
+.blue-button {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.blue-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.blue-button:active {
+	position:relative;
+	top:1px;
+}
