@@ -4,77 +4,12 @@
  h2, h3, h4, h5, h6, ul, li {
   margin-bottom: 0; }
 
-  body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.header-nightsky {
-  color: white;
-  /* background: url("header.jpg") no-repeat; */
-  background-image: linear-gradient(rgba(223, 223, 223, 0.5), rgba(236, 240, 243, 0.5)), url("nightsky.jpg");
-  background-size: cover;
-  background-position: bottom;
-  padding-bottom: 10px;
-}
-
-.header-nightsky .navbar-nav>li>a {
-  color: white;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.header-nightsky .navbar {
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  border-bottom:none;
-  background-color: transparent;
-  min-width: 300px;
-  border: none;
-}
-
 footer {
   margin-top: 10px; }
 
 .container {
   width: 95%;
   max-width: 95%; }
-
-  .header-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(30, 86, 199, 0.5), rgba(0, 128, 255, 0.5)), url("header.jpg");
-  
-    /* Set a specific height */
-    height: 10%;
-   
-    border: 10px solid rgb(59, 56, 56);
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  .header-outline {
-    padding: 50px;
-    width:100%;
-    margin-left: 0px;
-    color: rgb(109, 151, 230);
-  }
-  .header {
-
-    padding: 10px;
-    width:100%;
-    text-align: left;
-    text-indent: 50px;
-    /* background: #04b7ee; */
-    color: rgb(41, 38, 38);
-    font-size: 80px;
-    margin-left: 20px;
- 
-  }
 
 .grid {
   margin-bottom: 20px;
