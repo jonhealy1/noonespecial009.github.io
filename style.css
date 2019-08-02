@@ -15,15 +15,15 @@ footer {
 
   .bg-img {
     /* The image used */
-    background-image: url("globe2.png");
+    background-image: url("World-Map-Transparent-Images.png");
   
-    min-height: 200px;
-  
+    min-height: 700px;
+    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+   
     /* Needed to position the navbar */
     position: relative;
   }
@@ -40,6 +40,11 @@ footer {
     overflow: hidden;
     background-color: #333;
     opacity: 0.9;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    /* border-top:1px solid rgb(10, 1, 1); */
   }
   
   /* Navbar links */
