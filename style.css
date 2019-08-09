@@ -17,7 +17,7 @@ footer {
     margin-left: 50px;
     background-color: #4CAF50; /* Green background */
     border: 1px solid green; /* Green border */
-    color: white; /* White text */
+    color: rgb(0, 0, 0); /* White text */
     opacity: .6;
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -59,7 +59,7 @@ footer {
     border-radius: 4px;
     background-color: #8f8f8f;
     border: none;
-    color: #FFFFFF;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-size: 12px;
     padding-left: 20px;
@@ -100,7 +100,7 @@ footer {
     border-radius: 4px;
     background-color: #859cff;
     border: none;
-    color: #FFFFFF;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-size: 12px;
     padding-left: 20px;
