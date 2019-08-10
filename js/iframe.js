@@ -10,7 +10,7 @@ function lidarLoad(item){
     } else if(global_current_lidar == 'beer-caves') {
         $('#viewFrame').attr('src', `http://potree.entwine.io/data/beer-caves.html`)
     }else{
-        $('#viewFrame').attr('src', `http://localhost:8085/data/view.html?r="http://localhost:8111/${global_current_lidar}"`)
+        $('#viewFrame').attr('src', `http://potree.entwine.io/data/${global_current_lidar}.html`)
     }
     //load
     $( '#viewFrame' ).attr( 'src', function ( i, val ) { return val; });
@@ -26,7 +26,7 @@ function fullscreenviewer(b) {
     } else if(global_current_lidar == 'beer-caves'){
         var win = window.open(`http://potree.entwine.io/data/beer-caves.html`, '_blank')
     }else{
-        var win = window.open(`http://localhost:8085/data/view.html?r="http://localhost:8111/${global_current_lidar}"`, '_blank')
+        var win = window.open(`http://potree.entwine.io/data/${global_current_lidar}.html`, '_blank')
     }
     win.focus();
 }
@@ -34,7 +34,7 @@ function fullscreenviewer(b) {
 function switcher(b){
     console.log($(b).text())
     var this_text = $(b).text()
-    if(this_text == 'Lidar'){
+    if(this_text == 'LiDAR'){
         $('#map').hide()
         $('#viewFrame').show()
         $(b).text(function(){
