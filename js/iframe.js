@@ -44,7 +44,7 @@ function switcher(b){
         $('#viewFrame').hide()
         $('#map').show()
         $(b).text(function(){
-            return 'LiDAR'
+            return 'Lidar'
         })
     }
 }

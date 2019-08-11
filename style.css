@@ -8,6 +8,14 @@ h1 {
   margin-left: 100px;
   font-size: 50px;
   margin-bottom: 20px;
+  opacity: .6;
+}
+
+h2 {
+  margin-left: 100px;
+  font-size: 30px;
+  color: rgb(100, 9, 9); /* White text */
+  opacity: .6;
 }
 
 footer {
@@ -177,7 +185,7 @@ footer {
 
   #gh {
     font-size: 48px;
-    color: #f7efef;
+    color: #d3d3d3;
   }
   
   .topnav a:hover {
